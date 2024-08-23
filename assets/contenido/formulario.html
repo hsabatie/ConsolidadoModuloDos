@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <form class="row g-3 needs-validation text-white m-4" >
+        <div class="col-md-6 position-relative">
+            <label for="validationTooltip01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="validationTooltip01" required>
+        </div>
+        <div class="col-md-6 position-relative">
+                <label for="validationTooltip02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+        </div>
+        
+        <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">
+                Por favor ingrese un correo electrónico válido.
+            </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">State</label>
+            <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+            </select>
+            <div class="invalid-tooltip">
+            Please select a valid state.
+            </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+            Please provide a valid zip.
+            </div>
+        </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </form>
+
+        <script src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    background-image: url(/assets/imagenes/interior-oscuro-grunge-ambiente-ahumado.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.neon{
+    font-size: 2em;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 1s;
+    text-align: center;
+}
+.neon:hover{
+    color: purple;
+    text-shadow: 
+        0 0 5px #dcb0ff, 
+        0 0 10px #dcb0ff, 
+        0 0 15px #a45dbf, 
+        0 0 20px #a45dbf, 
+        0 0 25px #a45dbf, 
+        0 0 30px #a45dbf, 
+        0 0 35px #a45dbf;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.094) !important; /* Fondo blanco semi-transparente */
+        box-shadow: none; /* Elimina la sombra si quieres una apariencia más limpia */
+        border: none; /* Elimina bordes si hay alguno */
+    }
+
+    iframe{
+        background-color: rgba(255, 255, 255, 0.05) !important; /* Fondo blanco semi-transparente */
+        box-shadow: none; /* Elimina la sombra si quieres una apariencia más limpia */
+        border: none; /* Elimina bordes si hay alguno */
+        width: 90%;
+        height: calc(100vh - 108px);
+        
+    }
+    .iframe-container {
+        display: flex; /* Usar flexbox para centrar el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        
+    }
+
