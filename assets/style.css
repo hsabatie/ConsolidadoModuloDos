@@ -41,6 +41,7 @@ body{
         border: none; /* Elimina bordes si hay alguno */
         width: 90%;
         height: calc(100vh - 108px);
+        border:none;
         
     }
     .iframe-container {
@@ -48,5 +49,7 @@ body{
         justify-content: center; /* Centra horizontalmente el contenido */
         
     }
-
+    .card {
+        background-color: #272728ba; /* Gris claro */
+    }
 
